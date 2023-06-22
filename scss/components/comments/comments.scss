@@ -1,0 +1,83 @@
+@use "../../abstracts/colors";
+
+
+.comments{
+    width: 100%;
+  background-color: #2B2730;
+  padding: 2rem;
+  display: flex;
+  height: 100%;
+  overflow-y: scroll;
+  height: auto;
+  flex-direction: column-reverse;
+  gap: 2rem;
+
+&__commentwrapper{
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+&__figure{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    order: -1; 
+    padding-bottom: 1rem;
+}
+
+
+&__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+&__comment{
+    border-style: none;
+    padding: 1rem;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    display: flex;
+    font-size: 200%;
+   
+    
+    
+}
+
+&__button{
+    background-color: white;
+    color:colors.$black;
+    min-height: 4rem;
+    width: 6rem;
+    transition: 0.3s all;
+ 
+
+    &:hover{
+        cursor: pointer;
+        background-color:colors.$purple;
+        color:white;
+    }
+}
+
+&__item{
+    background-color: white;
+    color:colors.$black;
+    min-height: 6rem;
+    width: auto;
+    transition: 0.3s all;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 200%;
+    padding: 2rem;
+    
+
+}
+
+}

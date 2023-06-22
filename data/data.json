@@ -1,0 +1,58 @@
+
+{
+
+    "vids": [
+
+        {
+    
+          "id": 0,
+    
+          "video": "../vids/vid1.mp4",
+
+          "title": "(PS5) Need for Speed Gameplay",
+    
+          "link": 1
+    
+        },
+    
+        {
+    
+          "id": 1,
+    
+          "video": "../vids/vid2.mp4",
+
+          "title": "(PS5) Days Gone Gameplay",
+    
+          "link": 2
+    
+        },
+    
+        {
+    
+          "id": 2,
+    
+          "video": "../vids/vid3.mp4",
+
+          "title": "(PS5) Far Cary 6 Gameplay",
+    
+          "link": 0
+    
+        },
+    
+        {
+    
+          "id": 3,
+    
+          "video": "../vids/vid4.mp4",
+
+          "title": "(PS5) Ride 4 Gameplay",
+    
+          "link": 0
+    
+        }
+    
+      ]
+
+}
+
+

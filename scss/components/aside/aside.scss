@@ -1,0 +1,11 @@
+@use "../../abstracts/colors";
+
+
+
+.aside{
+   
+    background-color:colors.$black;
+    grid-column: 2/3;
+    grid-row: 2/9;
+  
+}

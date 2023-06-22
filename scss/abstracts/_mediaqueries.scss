@@ -1,0 +1,174 @@
+@use "../abstracts/colors";
+
+
+
+@media screen and  (max-width:75rem) {
+    .yubtub {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .article{
+        width: 100%;
+    }
+
+    .video{
+        margin-top: 2rem;
+        width:40rem;
+        height: 100%;
+        aspect-ratio: 2/1;
+        border:none;
+
+        &__sterlogo{
+            color: colors.$gold;
+            position: absolute;
+            font-size: 200%;
+            top: 3%;
+            left:3%;
+    
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .video.wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;  
+        position: relative;
+
+    }
+
+    
+.header{
+    background-color:colors.$black;
+    grid-column: 1/3;
+    padding: 3rem;
+    width: 100%;
+    height: 20rem;
+    
+
+    &__h2{
+        font-size: 200%;
+        color: colors.$purple;
+        
+    }
+}
+
+    
+
+    .video__nextvideos {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        padding: 1rem;
+        gap: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+
+    }
+
+    .video__nextvideoframe {
+        width: 30rem;
+        height: 30rem;
+        border: none;
+        transition: 0.3s all;
+     
+
+        &:hover{
+            cursor: pointer;
+            width: 32rem;
+            height: 32rem;
+        }
+    }
+
+    .article{
+
+
+    
+        &__figure{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+           
+        }
+    
+        &__img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+    
+        }
+    
+        &__h2{
+            color: white;
+            margin-bottom: 2rem;
+            font-size: 200%;
+            margin-top: 3rem;
+        }
+    
+        &__wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 5rem;
+            width: 100%;
+            gap: 0.2rem;
+            margin-top: 3rem;
+    
+        }
+    
+        &__starlogo{
+            font-size: 200%;
+            color: colors.$gold;
+            &:hover{
+                cursor: pointer;
+            }
+    
+        }
+    
+        &__pijl{
+            font-size: 200%;
+            color: colors.$purple;
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+        }
+      
+       
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: colors.$purple;
+        padding: 1rem;
+    }
+    
+    
+   
+      
+
+
+
+}
+
+@media screen and  (max-width:40rem) {
+
+    .video{
+        width:100%;
+        height: 100%;
+        aspect-ratio: 2/1;
+        border:none;
+    }
+
+}

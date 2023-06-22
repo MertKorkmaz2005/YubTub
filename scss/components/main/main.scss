@@ -1,0 +1,67 @@
+@use "../../abstracts/colors";
+
+
+
+.article{
+
+    
+    background-color:colors.$black;
+    grid-column: 1/2;
+    grid-row: 2/9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__figure{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+       
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+
+    }
+
+    &__h2{
+        color: white;
+        margin-bottom: 2rem;
+        font-size: 300%;
+        margin-top: 3rem;
+    }
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10rem;
+        width: 100%;
+        gap: 3rem;
+        margin-top: 3rem;
+
+    }
+
+    &__starlogo{
+        font-size: 400%;
+        color: colors.$gold;
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+
+    &__pijl{
+        font-size: 400%;
+        color: colors.$purple;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+  
+   
+}

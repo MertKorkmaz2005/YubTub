@@ -1,0 +1,12 @@
+
+@use "./abstracts/colors";
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: colors.$purple;
+    padding: 2rem;
+}

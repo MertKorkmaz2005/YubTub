@@ -1,0 +1,15 @@
+@use "../../abstracts/colors";
+
+
+.header{
+    background-color:colors.$black;
+    grid-column: 1/3;
+    padding: 3rem;
+    
+
+    &__h2{
+        font-size: 300%;
+        color: colors.$purple;
+        
+    }
+}
